@@ -1,0 +1,160 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, monospace;
+    font-size: 14px;
+    font-weight: normal;
+}
+
+.container {
+    width: 1060px;
+    margin: 0 auto;
+    padding-top: 70px;
+}
+
+.header__top-logo {
+    font-family: 'Inconsolata', monospace;
+    font-size: 30px;
+    font-weight: normal;
+    text-transform: uppercase;
+    letter-spacing: 6px;
+    display: inline-block;
+}
+
+.links__list {
+    list-style: none;
+}
+
+.links__list-item {
+    display: inline-block;
+}
+
+.header__top-links_list {
+    display: inline-block;
+    float: right;
+}
+
+.header__top-link {
+    color: #626262;
+    text-decoration: none;
+    text-transform: uppercase;
+    margin-left: 120px;
+    line-height: 30px;
+    vertical-align: middle;
+}
+
+.header__advertisement {
+    margin-top: 70px;
+    margin-bottom: 100px;
+    width: 1060px;
+    height: 510px;
+}
+
+.main {
+    padding-bottom: 100px;
+}
+
+.main__left {
+    width: 660px;
+    display: inline-block;
+    padding-left: 80px;
+    margin-right: 45px;
+}
+
+.main__right {
+    width: 270px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.about__me {
+    padding-bottom: 35px;
+}
+
+.about__me-image {
+    width: 270px;
+    height: 180px;
+}
+
+.about__me-title {
+    font-size: 24px;
+    color: #626262;
+    padding: 30px 0;
+}
+
+.about__me-text {
+    font-size: 12px;
+    color: #626262;
+}
+
+.top__posts-title {
+    font-size: 14px;
+    font-weight: normal;
+    color: #b4ad9e;
+    text-transform: uppercase;
+    margin-bottom: 35px;
+}
+
+.top__posts-list {
+    padding-left: 20px;
+}
+
+.top__posts-list_item-link {
+    font-size: 16px;
+    color: #626262;
+    text-decoration: none;
+}
+
+.comments_counter {
+    font-size: 12px;
+    color: #b4ad9e;
+    text-transform: uppercase;
+}
+
+.post__category {
+    font-size: 14px;
+    font-weight: normal;
+    color: #b4ad9e;
+    text-transform: uppercase;
+    padding-bottom: 30px;
+}
+
+.post__title {
+    font-size: 30px;
+    font-weight: normal;
+    color: #626262;
+    padding-bottom: 40px;
+}
+
+.post_content {
+    font-size: 20px;
+    font-weight: normal;
+    color: #626262;
+    padding-bottom: 100px;
+}
+
+.post__image {
+    width: 660px;
+    height: 495px;
+    padding-bottom: 45px;
+}
+
+.footer {
+    background-color: #f0f0f0;
+    height: 100px;
+}
+
+.footer__links {
+    width: 1060px;
+    padding-top: 40px;
+    margin: auto;
+}
+
+.footer__links-item {
+    color: black;
+    text-decoration: none;
+    margin-right: 30px;
+}
